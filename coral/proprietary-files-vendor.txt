@@ -1111,6 +1111,8 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
+vendor/lib64/librmnetctl.so
+vendor/lib/librmnetctl.so
 vendor/lib/adsp_camera/libhalide_hexagon_remote_skel.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/camera/capture_sessions/lib_multicam_dualfov_capture_session.so

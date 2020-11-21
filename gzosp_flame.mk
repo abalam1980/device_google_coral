@@ -21,6 +21,10 @@
 # lines, aosp and du, hence its name.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_WIDTH := 1080
+
 # Include GZ common configuration
 include vendor/gzosp/config/common_full_phone.mk
 
@@ -44,3 +48,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/flame/flame:11/RP1A.201105.002/6869500:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/flame/flame-vendor.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
