@@ -21,7 +21,7 @@ TARGET_BOARD_INFO_FILE := device/google/coral/board-info.txt
 USES_DEVICE_GOOGLE_CORAL := true
 
 # Faceunlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
+#TARGET_FACE_UNLOCK_SUPPORTED := true
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
