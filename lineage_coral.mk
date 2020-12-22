@@ -27,13 +27,13 @@ TARGET_SCREEN_WIDTH := 1440
 
 
 # Include GZ common configuration
-include vendor/gzosp/config/common_full_phone.mk
+include vendor/lineage/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/coral/aosp_coral.mk)
--include device/google/coral/device-gzosp.mk
+-include device/google/coral/device-lineage.mk
 
-PRODUCT_NAME := gzosp_coral
+PRODUCT_NAME := lineage_coral
 PRODUCT_DEVICE := coral
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4 XL
