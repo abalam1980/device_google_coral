@@ -26,13 +26,13 @@ TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
 # Include GZ common configuration
-include vendor/lineage/config/common_full_phone.mk
+include vendor/gzosp/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/coral/aosp_flame.mk)
 -include device/google/coral/device-gzosp.mk
 
-PRODUCT_NAME := lineage_flame
+PRODUCT_NAME := gzosp_flame
 PRODUCT_DEVICE := flame
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4

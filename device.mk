@@ -93,9 +93,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk    
-
 PRODUCT_PACKAGES += \
     messaging
 
@@ -116,8 +113,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay \
-                           $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 #
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.hardware:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.$(PRODUCT_PLATFORM) \
